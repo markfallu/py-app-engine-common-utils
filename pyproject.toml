@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcm_common_utils"
+version = "0.2.0"
+dependencies = [
+    "boto3 >= 1.28.64, < 1.29",
+    "djangorestframework==3.14.0",
+    "pytest==8.3.3",
+    "inflect==7.4.0",
+    "spacy==3.8.2",
+    "nltk==3.9.1",
+    "django-structlog==8.1.0",
+    "en-core-web-sm==3.8.0",
+    "breame==0.1.2",
+    "pytest-mock==3.14.0"
+]
